@@ -21,6 +21,8 @@ app.post('/save_track', function (req, res) {
 	var trackId = req.param('track_id', null);
 
 	saveSongData(lat, long, trackId);
+
+	res.json({'message': 'Song ' + trackId + ' saved!'});
 	return;
 });
 
@@ -45,6 +47,8 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 
 
-function saveSongData(lat, long, songId) {
+function saveSongData(lat, long, trackId) {
+	console.log("Saving Data : Long : " + long + " Lat : " + lat + "Track_id : " + trackId);
+	
 	// TODO : Do your thing girl
 }
