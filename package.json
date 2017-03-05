@@ -1,0 +1,28 @@
+{
+  "name": "spotifind_service",
+  "version": "1.0.0",
+  "description": "Spotifind services",
+  "main": "index_spotifind.js",
+  "dependencies": {
+    "express": "3.3.4"
+  },
+  "scripts": {
+    "start" : "node index_spotifind.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/crisyelpegaso/spotifind_service.git"
+  },
+  "keywords": [
+    "spotifind",
+    "find",
+    "songs"
+  ],
+  "author": "crisyelpegaso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisyelpegaso/spotifind_service/issues"
+  },
+  "homepage": "https://github.com/crisyelpegaso/spotifind_service#readme"
+}
